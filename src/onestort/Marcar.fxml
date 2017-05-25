@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="284.0" prefWidth="290.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="31.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcar compromisso:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turma" />
+      <ComboBox fx:id="Turma" layoutX="72.0" layoutY="61.0" prefWidth="150.0" />
+      <Text layoutX="71.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo de atividade" />
+      <TextField fx:id="Atividade" layoutX="73.0" layoutY="104.0" />
+      <Text layoutX="71.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horário" />
+      <onestort.TimeTextField fx:id="HInicial" layoutX="73.0" layoutY="145.0" prefHeight="25.0" prefWidth="58.0" text="07:00" />
+      <Text layoutX="140.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="às" wrappingWidth="17.42578125" />
+      <onestort.TimeTextField fx:id="HFinal" layoutX="165.0" layoutY="145.0" prefHeight="25.0" prefWidth="58.0" text="07:00" />
+      <ToggleButton fx:id="DIA" layoutX="73.0" layoutY="178.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="34.0" text="Dia" />
+      <ToggleButton fx:id="DQA" layoutX="105.0" layoutY="178.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="Daqui a" />
+      <DatePicker fx:id="Data" layoutX="72.0" layoutY="209.0" prefHeight="25.0" prefWidth="150.0" />
+      <AnchorPane fx:id="DaquiaTexto" layoutX="72.0" layoutY="203.0" maxHeight="25.0" prefHeight="25.0" prefWidth="150.0" visible="false">
+         <children>
+            <TextField fx:id="MESES" layoutX="50.0" layoutY="6.0" prefHeight="25.0" prefWidth="30.0" text="0" />
+            <Label fx:id="ANOSTXT" layoutX="35.0" layoutY="13.0" prefHeight="19.0" prefWidth="9.0" text="A">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="MESESTXT" layoutX="85.0" layoutY="13.0" prefHeight="19.0" prefWidth="9.0" text="M">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <TextField fx:id="DIAS" layoutX="100.0" layoutY="6.0" prefHeight="25.0" prefWidth="30.0" text="0" />
+            <TextField fx:id="ANOS" layoutY="6.0" prefHeight="25.0" prefWidth="30.0" text="0" />
+            <Label fx:id="DIASTXT" layoutX="135.0" layoutY="13.0" prefHeight="19.0" prefWidth="9.0" text="D">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="Marcar" layoutX="74.0" layoutY="245.0" mnemonicParsing="false" onAction="#Grava" prefHeight="25.0" prefWidth="149.0" text="Marcar" />
+   </children>
+</AnchorPane>

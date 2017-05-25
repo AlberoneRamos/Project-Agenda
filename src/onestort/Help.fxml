@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="301.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="46.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcando compromissos" />
+      <TextArea editable="false" layoutX="15.0" layoutY="61.0" prefHeight="223.0" prefWidth="195.0" text="Para marcar um compromisso, &#10;acesse o menu de &quot;Marcar &#10;Compromisso&quot;, selecione a turma&#10;que você deseja, coloque o tipo&#10;de atividade (Prova, trabalho, &#10;excursão, etc) e selecione um ho-&#10;rário, para isso você tem duas op-&#10;ções: Colocar uma data exata ou&#10;usar a opçao &quot;daqui a&quot;, que &#10;marcao compromisso para daqui&#10; a X anos (A), X meses (M) e X &#10;dias (D)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="215.0" layoutY="61.0" prefHeight="223.0" prefWidth="175.0" text="Para ver seus compromissos&#10;já marcados há duas opções&#10;vê-los em formato de lista&#10;ou em formato de agenda.&#10;Para ver em fomato de lista&#10;acesse o menu &quot;Ver Compro-&#10;missos&quot;. Para ver em forma &#10;de agenda, acesse o menu &#10;&quot;Agenda Pica&quot;." />
+      <Text layoutX="254.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ver compromissos" />
+      <Text layoutX="229.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu de Ajuda" wrappingWidth="142.158203125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="455.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ver horários" />
+      <TextArea editable="false" layoutX="395.0" layoutY="61.0" prefHeight="223.0" prefWidth="175.0" text="O menu de ver horários&#10;mostra entre quais intervalos&#10;você leciona em cada turma&#10;acesse-o para saber quando&#10;e para quem você dará aula&#10;naquela semana." />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import jfxtras.scene.control.agenda.*?>
+<?import jfxtras.scene.control.*?>
+
+<Pane fx:id="PainelMaior" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+       <Button fx:id="Volta" layoutX="521.0" onAction="#VoltaSemana"   layoutY="14.0" mnemonicParsing="false" text="◀" />
+      <Button fx:id="Avança" layoutX="558.0" onAction="#AvancaSemana" layoutY="14.0" mnemonicParsing="false" text="▶" />
+      <ToggleButton fx:id="Dia" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Dia" />
+      <ToggleButton fx:id="Semana" layoutX="47.0" layoutY="14.0" mnemonicParsing="false" text="Semana" />
+      <ToggleButton fx:id="Mes" layoutX="105.0" layoutY="14.0" mnemonicParsing="false" text="Mês" />
+       
+      <AnchorPane fx:id="PainelMenor" layoutY="48.0" prefHeight="352.0" prefWidth="600.0">
+          <children>
+              <Agenda fx:id="agenda" prefHeight="352.0" prefWidth="600.0" />
+          </children>
+      </AnchorPane>
+   </children>
+</Pane>

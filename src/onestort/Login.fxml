@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="141.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="onestort.LoginController">
+   <children>
+      <PasswordField fx:id="Password" layoutX="59.0" layoutY="95.0" />
+      <TextField fx:id="User" layoutX="59.0" layoutY="60.0" />
+      <Text layoutX="10.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário:" />
+      <Text layoutX="18.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:" />
+      <Text layoutX="94.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log-in" wrappingWidth="78.2421875">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="LoginButton" layoutX="214.0" layoutY="60.0" mnemonicParsing="false" onAction="#Logar" prefHeight="61.0" prefWidth="55.0" text="Logar!" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="170.0" prefWidth="382.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="onestort.AdicionarAdm">
+   <children>
+      <Text layoutX="11.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome completo:" />
+      <Text layoutX="10.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adicionar administrador">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="Adicionar" layoutX="10.0" layoutY="137.0" mnemonicParsing="false" onAction="#Grava" prefHeight="25.0" prefWidth="357.0" text="Adicionar administrador" />
+      <TextField fx:id="Nome" layoutX="104.0" layoutY="34.0" prefHeight="25.0" prefWidth="263.0" />
+      <TextField fx:id="Endereco" layoutX="65.0" layoutY="59.0" prefHeight="25.0" prefWidth="302.0" />
+      <Text layoutX="11.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Endereço:" />
+      <Text layoutX="11.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cidade:" />
+      <TextField fx:id="Cidade" layoutX="51.0" layoutY="84.0" prefHeight="25.0" prefWidth="105.0" />
+      <TextField fx:id="UF" layoutX="188.0" layoutY="84.0" prefHeight="25.0" prefWidth="33.0" />
+      <Text layoutX="166.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UF:" />
+      <Text layoutX="227.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefone:" />
+      <TextField fx:id="Telefone" layoutX="278.0" layoutY="84.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField fx:id="Login" layoutX="51.0" layoutY="109.0" prefHeight="25.0" prefWidth="135.0" />
+      <Text layoutX="11.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log-in:" />
+      <Text layoutX="188.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:" />
+      <TextField fx:id="Senha" layoutX="226.0" layoutY="109.0" prefHeight="25.0" prefWidth="141.0" />
+   </children>
+</AnchorPane>
